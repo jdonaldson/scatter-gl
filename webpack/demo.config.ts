@@ -39,7 +39,7 @@ module.exports = {
     demo: './demo/index.ts',
   },
   output: {
-    path: path.join(__dirname, '../demo_build'),
+    path: path.join(__dirname, '../docs'),
     filename: 'bundle.min.js',
   },
   plugins: [
